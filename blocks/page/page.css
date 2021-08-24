@@ -1,9 +1,92 @@
 .page {
   background-color: #2A2C2F;
-  max-width: 1280px;
+  width: 1280px;
+  margin-left:auto;
+  margin-right:auto;
  
-  margin: 0 auto;
+ 
  
   font-family: 'Inter';
  
+}
+
+@media screen and (max-width:1024px)
+{
+  .header__image {
+    position:relative;
+width: 928px;
+height: 580px;
+left: 48px;
+top: 488px;
+background-color: red;
+  }
+  .header__caption{
+    position:relative;
+    background-color: red;
+    width: 182px;
+    height: 14px;
+    left: 48px;
+    top: 1076px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .logo_place_header{
+    position:relative;
+    background-color: red;
+    left: 48px;
+
+  }
+  .page{
+    width:1280px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
+
+@media screen and (max-width:768px)
+{ 
+  
+.header__image {
+  position:relative;
+    width: 768px;
+    height: 480px;
+    left: 0px;
+    top: 488px;
+      background-color: blue;
+        }
+.header__caption{
+  position:relative;
+    background-color: blue;
+    width: 720px;
+ height: 200px;
+ left: 24px;
+ top: 128px;
+
+ font-family: Inter;
+ font-style: normal;
+ font-weight: 900;
+ font-size: 96px;
+ line-height: 100px;
+ /* or 104% */
+
+ text-align: center;
+  }
+
+
+.logo_place_header{
+  position:relative;
+        background-color: blue;
+        width: 190px;
+        height: 44px;
+        left: 48px;
+        top: 34px;
+    
+      }
+    
+   
+
 }
