@@ -1,16 +1,14 @@
 .header__title {
-position:absolute;
-    margin-top: 62px;
-   
-    margim-bottom:0px;
-   margin-left:auto;
-   margin-right:auto;
-  
+    position: relative;
+    margin-left: auto;
+    margin-right:auto;
+   margin-top:62px;
+   margin-bottom:0px;
     width: 720px;
     height: 200px;
    
     color:#FFFFFF;
-    color:red;
+  
     font-family: Inter;
 font-style: normal;
 font-weight: 900;
