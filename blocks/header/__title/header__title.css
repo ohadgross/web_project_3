@@ -1,0 +1,15 @@
+.header__title {
+   
+    position: absolute;
+    top: 136px;
+    left: 280px;
+    width:720px;
+    height: 200px;
+    background-color: blue;
+    color:#FFFFFF;
+    font-family: Inter;
+font-style: normal;
+font-weight: 900;
+font-size: 96px;
+line-height: 100px;
+}
