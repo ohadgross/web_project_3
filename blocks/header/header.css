@@ -2,7 +2,7 @@
   margin:0;
   padding:0;
   position: relative;
-  height:1000px;
+  height:calc(1127px + 14px + 200px);
   display: flex;
  /* parameters for the header section */
   
