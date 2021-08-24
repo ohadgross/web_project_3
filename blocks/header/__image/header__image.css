@@ -1,8 +1,10 @@
 .header__image{
-    position:absolute;
+ 
 width: 984px;
+
 height: 615px;
-left: 148px;
-top: 504px;
+margin-left: 148px;
+margin-right: 148px;
+margin-top:64px;
 
 }

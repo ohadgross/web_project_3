@@ -1,9 +1,10 @@
 .header__caption{
-    position:absolute;
+   
 width: 182px;
 height: 14px;
-left: 148px;
-top: 1127px;
+margin-left: 148px;
+margin-top:8px;
+margin-bottom:0px;
 
 font-family: Inter;
 font-style: normal;
