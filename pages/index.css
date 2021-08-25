@@ -23,3 +23,8 @@
 @import url("../blocks/intro/__text-first-line/intro__text-first-line.css");
 @import url("../blocks/intro/__text-second-line/intro__text-second-line.css");
 @import url("../blocks/intro/__list/intro__list.css");
+
+
+@import url("../blocks/photo-grid/photo-grid.css");
+
+@import url("../blocks/photo-grid/__item/photo-grid__item.css");
