@@ -1,4 +1,4 @@
-.header__image{
+.lead__image{
  
 width: 984px;
 
@@ -20,7 +20,7 @@ margin-top:64px;
 
 @media screen and (max-width:1024px)
 { 
-.header__image{
+.lead__image{
     
         width: 928px;
         height: 580px; 
@@ -31,7 +31,7 @@ margin-top:64px;
 
 @media screen and (max-width:768px)
 { 
-    .header__image{
+    .lead__image{
         width: 768px;
 height: 480px;
 margin-left: 0px;
@@ -44,7 +44,7 @@ margin-right: 0px;
 @media screen and (max-width:320px)
 { 
 
-    .header__image{
+    .lead__image{
         width: 320px;
 height: 200px;
 margin-left: 0px;
