@@ -11,7 +11,7 @@
 .logo_place_header {
  
   margin-top:34px;
-  margin-left:48px;
+  margin-left:148px;
  
   width: 190px;
   height: 44px;
@@ -21,6 +21,19 @@
 
 }
 
+@media screen and (max-width:1024px)
+{ 
+.logo_place_header {
+ 
+  margin-top:34px;
+  margin-left:48px;
+  width: 190px;
+  height: 44px;
+  background-color: green;
+ 
+}
+
+}
 @media screen and (max-width:768px)
 { 
 

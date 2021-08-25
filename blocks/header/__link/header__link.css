@@ -2,6 +2,29 @@
     margin-right:18px;
 }
 .header__link:last-child{
-    margin-right:148px;
+    margin-right:calc(148px-(29px-27px));
    
+}
+
+@media screen and (max-width:1280px)
+{ 
+    margin-right:calc(148px-(29px-27px));
+
+}
+@media screen and (max-width:1024px)
+{ 
+
+    margin-right:calc(48px-(29px-27px));
+}
+
+@media screen and (max-width:768px)
+{ 
+
+    margin-right:calc(24px-(29px-27px));
+}
+
+@media screen and (max-width:320px)
+{ 
+
+    margin-right:calc(16px-(22px-21px));
 }
