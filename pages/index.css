@@ -15,5 +15,26 @@
 @import url("../blocks/header/__caption/header__caption.css");
 
 
+@media screen and (max-width:1280px)
+{ 
+.class_name{
+
+}
+
+}
 @media screen and (max-width:1024px)
-{
+{ 
+
+}
+
+@media screen and (max-width:768px)
+{ 
+
+
+}
+
+@media screen and (max-width:320px)
+{ 
+
+
+}

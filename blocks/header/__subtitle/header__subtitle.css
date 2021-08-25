@@ -20,3 +20,47 @@
  
 
 }
+
+@media screen and (max-width:1280px)
+{ 
+    .header__subtitle {
+        margin-left: 330px;
+    margin-right: 330px; 
+    }
+
+
+
+}
+@media screen and (max-width:1024px)
+{ 
+    .header__subtitle {
+    margin-left: 202px;
+    margin-right: 202px;
+    color:pink;
+    }
+}
+
+@media screen and (max-width:768px)
+{ 
+
+    .header__subtitle {
+        margin-left: 74px;
+        margin-right: 74px;
+        color:white;
+    }
+}
+
+@media screen and (max-width:320px)
+{ 
+
+    .header__subtitle {
+
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top:16px;
+        width: 288px;
+        height: 40px;
+        font-size: 16px;
+line-height: 20px;
+    }
+}
