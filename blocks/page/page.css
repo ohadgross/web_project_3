@@ -26,6 +26,7 @@
 { 
   .page {
   width:768px;
+  background-color:pink;
   }
 }
 
@@ -33,5 +34,6 @@
 { 
   .page {
   width:320px;
+  background-color:black;
   }
 }
