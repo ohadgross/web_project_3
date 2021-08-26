@@ -1,11 +1,25 @@
 .places {
+  display:grid;
   margin:0;
   padding:0;
   position: relative;
  color:#FFFFFF;
  
- /* parameters for the header section */
-  
+ grid-template-columns: 460px 1fr;
+ grid-template-rows: auto;
+
+ grid-template-areas:
+   "place-maine__title  place-maine__website_url-heading"
+   ".place-maine__website_link"
+   "place-maine__image place-maine__paragraph_1"
+   "place-maine__image place-maine__paragraph_2"
+   "place-maine__image place-maine__paragraph_3"
+   
+;
+
+   row-gap: 10px;
+   column-gap:40px;
+
 }
 
 
