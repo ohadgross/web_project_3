@@ -1,0 +1,8 @@
+.cover__background{
+    width: 1184px;
+    height: 740px;
+     background: url("../../../images/cover__background.png");
+     margin-right:48px;
+     margin-left:48px;
+     margin-top:92px;
+}
