@@ -1,5 +1,5 @@
-.place-maine__website_url-heading{
- grid-area: place-maine__website_url-heading;
+.place-new-hampshire__website_url-heading{
+ grid-area: place-new-hampshire__website_url-heading;
  width: 456px;
 height: 20px;
 
@@ -13,6 +13,4 @@ line-height: 170%;
 letter-spacing: 0.2em;
 
 color: #AAAAAA;
-margin-top:0px;
-margin-bottom:0px;
 }

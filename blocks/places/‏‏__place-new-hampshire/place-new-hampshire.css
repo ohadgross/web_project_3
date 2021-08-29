@@ -1,0 +1,15 @@
+.place-new-hampshire{
+  background-color: blue;
+  grid-template-columns: 148px 460px 40px 1fr ;
+  grid-template-rows: auto;
+  row-gap: 0px;
+  column-gap:0px;
+  grid-template-areas:
+   ". place-new-hampshire__title . place-new-hampshire__website_url-heading   "
+   ". . . place-new-hampshire__website_link "
+   ". place-new-hampshire__image . place-new-hampshire__paragraph_1"
+   ". place-new-hampshire__image . place-new-hampshire__paragraph_2"
+   ". place-new-hampshire__image . place-new-hampshire__paragraph_3";
+   ;
+   
+}

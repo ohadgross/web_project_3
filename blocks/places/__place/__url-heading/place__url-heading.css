@@ -1,5 +1,5 @@
-.place-maine__website_url-heading{
- grid-area: place-maine__website_url-heading;
+.place__url-heading
+ grid-area: place__url-heading;
  width: 456px;
 height: 20px;
 

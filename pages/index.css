@@ -34,6 +34,9 @@
 @import url("../blocks/places/places.css");
 
 
+/*@import url("../blocks/places/__place-maine/place-maine.css");*/
+
+@import url("../blocks/places/places__article.css");
 @import url("../blocks/places/__place-maine/__title/place-maine__title.css");
 @import url("../blocks/places/__place-maine/__website/_url-heading/place-maine__website_url-heading.css");
 @import url("../blocks/places/__place-maine/__website/_link/place-maine__website_link.css");
@@ -41,6 +44,18 @@
 @import url("../blocks/places/__place-maine/__paragraph/_1/place-maine__paragraph_1.css");
 @import url("../blocks/places/__place-maine/__paragraph/_2/place-maine__paragraph_2.css");
 @import url("../blocks/places/__place-maine/__paragraph/_3/place-maine__paragraph_3.css");
+
+
+/*@import url("../blocks/places/‏‏__place-new-hampshire/place-new-hampshire.css");*/
+
+@import url("../blocks/places/places__article.css");
+@import url("../blocks/places/‏‏__place-new-hampshire/__title/place-new-hampshire__title.css");
+@import url("../blocks/places/‏‏__place-new-hampshire/__website/_url-heading/place-new-hampshire_website_url-heading.css");
+@import url("../blocks/places/‏‏__place-new-hampshire/__website/_link/place-new-hampshire__website_link.css");
+@import url("../blocks/places/‏‏__place-new-hampshire/__image/place-new-hampshire__image.css");
+@import url("../blocks/places/‏‏__place-new-hampshire/__paragraph/_1/place-new-hampshire__paragraph_1.css");
+@import url("../blocks/places/‏‏__place-new-hampshire/__paragraph/_2/place-new-hampshire__paragraph_2.css");
+@import url("../blocks/places/‏‏__place-new-hampshire/__paragraph/_3/place-new-hampshire__paragraph_3.css");
 
 
 @import url("../blocks/cover/cover.css");
