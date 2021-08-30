@@ -1,5 +1,15 @@
 .place__title{
 
 grid-area:  title;
-color:blue;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 76px;
+/* identical to box height, or 106% */
+
+margin-top:0px;
+margin-bottom:0px;
+color: #FFFFFF;
  }
