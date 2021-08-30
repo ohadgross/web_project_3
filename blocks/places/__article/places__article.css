@@ -1,0 +1,14 @@
+.places__article{
+
+    display:grid;
+    position: relative;
+    background-color: blueviolet;
+ grid-template-columns: 460px 1fr;
+ grid-template-rows: span 2;
+ row-gap: 0px;
+ column-gap:0px;
+ gap: 48px 40px;
+ grid-template-areas:
+ "title url"
+"image text";
+}
