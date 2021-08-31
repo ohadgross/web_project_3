@@ -1,5 +1,40 @@
 .place__title{
 
 grid-area:  title;
-color:blue;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 76px;
+/* identical to box height, or 106% */
+
+margin-top:0px;
+margin-bottom:0px;
+color: #FFFFFF;
  }
+
+/*1280*/
+
+@media screen and (max-width:1024px)
+{ 
+
+}
+
+@media screen and (max-width:768px)
+{ 
+
+
+}
+
+@media screen and (max-width:320px)
+{ 
+    .place__title{
+        font-family: Inter;
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 35px;
+    }
+
+}
