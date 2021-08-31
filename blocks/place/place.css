@@ -8,4 +8,30 @@ margin-bottom:0px;
 
 
 
+/*1280*/
 
+@media screen and (max-width:1024px)
+{ 
+    .place{
+        margin-left:48px;
+        margin-right:48px;
+    }
+}
+
+@media screen and (max-width:768px)
+{ 
+
+    .place{
+        margin-left:24px;
+        margin-right:24px;
+    }
+}
+
+@media screen and (max-width:320px)
+{ 
+
+    .place{
+        margin-left:0px;
+        margin-right:0px;
+    }
+}
