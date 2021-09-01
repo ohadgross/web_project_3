@@ -6,7 +6,7 @@
    padding-top:0px;
    margin-top:46px;
   margin-bottom:0px;
-    width: calc(29px+27px);
+    width: calc(29px + 27px);
     height: 28px;
     font-family: Inter;
     font-style: normal;
@@ -22,16 +22,16 @@
   .header__link-container{
     padding-left:720px;
     margin-top:46px;
-    width: calc(29px+27px);
+    width: calc(29px + 27px);
 }
-
+}
 @media screen and (max-width:1024px)
 { 
 
   .header__link-container{
     padding-left:664px;
     margin-top:46px;
-    width: calc(29px+27px);
+    width: calc(29px + 27px);
 }
 }
 
@@ -41,7 +41,7 @@
   .header__link-container{
     padding-left:456px;
     margin-top:46px;
-    width: calc(29px+27px);
+    width: calc(29px + 27px);
 }
 }
 
@@ -52,6 +52,6 @@
   .header__link-container{
     padding-left:71px;
     margin-top:30px;
-    width: calc(22px+21px);
+    width: calc(22px + 21px);
 }
 }
