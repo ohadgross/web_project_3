@@ -1,4 +1,18 @@
 .cover{
     color:white;
+    display:grid;
+    grid-row: 1;
+    grid-column: 1;
+   
+   /* background: url("../../../images/cover__background.png");*/
+    z-index:1;
   
+     
 }
+
+.cover:hover .cover__overlay {
+    opacity: 0.8;
+   transition: 1ms linear;
+    z-index:-1;background-color: blue;
+  }
+  

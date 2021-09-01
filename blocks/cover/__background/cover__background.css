@@ -1,31 +1,32 @@
 .cover__background{
+    
     width: 1184px;
     height: 740px;
-     background: url("../../../images/cover__background.png");
+     
      margin-right:48px;
      margin-left:48px;
      margin-top:92px;
      color:white;
-    object-fit: contain;
-    z-index:-1;
+  
+    z-index:1;
     background-size: contain;
     background-repeat: no-repeat;
+    background: url("../../../images/cover__background.png"); 
+
 
 }
-
 
     .cover__background:hover{
         z-index:-1;
        color:white;
-        background: #2A2C2F;
+   
         opacity: 0.3;
     
-        background: url("../../../images/cover__background.png"); 
+     
      
     }
 
     
-
 
       
 /*1280*/
