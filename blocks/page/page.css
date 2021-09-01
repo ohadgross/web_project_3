@@ -11,14 +11,14 @@
 { 
   .page {
   width:1280px;
-  background-color:yellow;
+ 
   }
 }
 @media screen and (max-width:1024px)
 { 
   .page {
   width:1024px;
-  background-color:blue;
+ 
   }
 }
 
@@ -26,7 +26,7 @@
 { 
   .page {
   width:768px;
-  background-color:pink;
+  
   }
 }
 
@@ -34,6 +34,6 @@
 { 
   .page {
   width:320px;
-  background-color:black;
+ 
   }
 }

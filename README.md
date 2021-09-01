@@ -1,4 +1,4 @@
-# Project 3: From Homeland to Homeland
+# Project 3: From Portland to Portland
 ### Overview  
 * Intro  
 * Figma  
@@ -10,10 +10,18 @@ This is a project that showcases the hometowns of some of Practicum's employees.
   
 **Figma**  
   
-* [Link to the project on Figma](https://www.figma.com/file/1zCYcflj6BJx5VqOvXU9nb/Sprint-3-From-Homeland-to-Homeland-desktop-mobile?node-id=0%3A1)  
+* [Link to the project on Figma](https://www.figma.com/file/AtbNbstbxWPcMqvF061V0R/Sprint-3-From-Portland-to-Portland-desktop-mobile)  
   
 **Images**  
+  
+  descriptio:
+  This project is a responsive website, it allows to view in small screens ipods and labtops.
+  There been a use of the Grid property in this project.
+  all the images have been shrinked with tinypng
   
 The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
   
 Good luck and have fun!  
+
+
+Github pages ask to register and pay so i didn't publish it on github pages becuse i don't want to pay them
