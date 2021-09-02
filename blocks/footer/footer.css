@@ -1,33 +1,22 @@
 .footer {
-  margin-top:92px;
- padding-bottom:24px;
- margin-left:48px;
- 
- margin-right:48px;
-color: #FFFFFF;
-
+     margin-top:92px;
+     padding-bottom:24px;
+     margin-left:48px;
+     margin-right:48px;
+     color: #FFFFFF;
 }
-
-
-
 /*1280*/
-
 /*1024*/
-
-@media screen and (max-width:768px)
-{ 
-
-  .footer {
-    margin-left:24px;
-    margin-right:24px;
-        
+ @media screen and (max-width:768px) {
+     .footer {
+         margin-left:24px;
+         margin-right:24px;
     }
 }
-@media screen and (max-width:320px)
-{  .footer{
-  margin-top:64px;
-  margin-right:16px;
+ @media screen and (max-width:320px) {
+     .footer{
+         margin-top:64px;
+         margin-right:16px;
     }
 }
-
-
+ 
