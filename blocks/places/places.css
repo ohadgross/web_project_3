@@ -1,4 +1,4 @@
-.place{
+.places{
      color: #FFFFFF;
      margin-left:148px;
      margin-right:148px;
@@ -7,19 +7,19 @@
 }
 /*1280*/
  @media screen and (max-width:1024px) {
-     .place{
+     .places{
          margin-left:48px;
          margin-right:48px;
     }
 }
  @media screen and (max-width:768px) {
-     .place{
+     .places{
          margin-left:24px;
          margin-right:24px;
     }
 }
  @media screen and (max-width:320px) {
-     .place{
+     .places{
          margin-left:0px;
          margin-right:0px;
     }
