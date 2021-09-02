@@ -1,61 +1,52 @@
 .lead__title {
-    position: relative;
-    margin-left: auto;
-    margin-right:auto;
-   margin-top:58px;
-   margin-bottom:0px;
-    width: 720px;
-    height: 200px;
-   
-    color:#FFFFFF;
-  
-    font-family: Inter;
-font-style: normal;
-font-weight: 900;
-font-size: 96px;
-line-height: 100px;
-text-align: center;
+     position: relative;
+     margin-left: auto;
+     margin-right:auto;
+     margin-top:58px;
+     margin-bottom:0px;
+     width: 720px;
+     height: 200px;
+     color:#FFFFFF;
+     font-family: Inter;
+     font-style: normal;
+     font-weight: 900;
+     font-size: 96px;
+     line-height: 100px;
+     text-align: center;
 }
-@media screen and (max-width:1280px)
-{ 
-    .lead__title {
-    margin-top:58px; 
-    margin-left: 280px;
-    margin-right:280px;
+ @media screen and (max-width:1280px) {
+     .lead__title {
+         margin-top:58px;
+         margin-left: 280px;
+         margin-right:280px;
     }
 }
-@media screen and (max-width:1024px)
-{ 
-    .lead__title {
-    margin-top:50px;
-    width: 720px;
-    height: 200px;
-    margin-left: 152px;
-    margin-right:152px;
+ @media screen and (max-width:1024px) {
+     .lead__title {
+         margin-top:50px;
+         width: 720px;
+         height: 200px;
+         margin-left: 152px;
+         margin-right:152px;
     }
 }
-
-@media screen and (max-width:768px)
-{ 
-
-    .lead__title {
-    margin-top:50px;
-    width: 720px;
-    height: 200px;
-    margin-left: 24px;
-    margin-right:24px;
+ @media screen and (max-width:768px) {
+     .lead__title {
+         margin-top:50px;
+         width: 720px;
+         height: 200px;
+         margin-left: 24px;
+         margin-right:24px;
     }
 }
-
-@media screen and (max-width:320px)
-{ 
-    .lead__title {
-    margin-top:50px;
-    width: 288px;
-    height: 88px;
-    font-size: 40px;
-    line-height: 44px;
-    margin-left: 16px;
-    margin-right:16px;
+ @media screen and (max-width:320px) {
+     .lead__title {
+         margin-top:50px;
+         width: 288px;
+         height: 88px;
+         font-size: 40px;
+         line-height: 44px;
+         margin-left: 16px;
+         margin-right:16px;
     }
 }

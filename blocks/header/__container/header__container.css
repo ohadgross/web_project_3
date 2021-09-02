@@ -1,7 +1,5 @@
 .header__container{
-    display: flex;
- 
-  margin-top:0px;
-  margin-bottom:0px;
-
+     display: flex;
+     margin-top:0px;
+     margin-bottom:0px;
 }

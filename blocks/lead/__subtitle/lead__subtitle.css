@@ -1,66 +1,45 @@
 .lead__subtitle {
-    
-    width: 620px;
-    height: 72px;
-    margin-left: 330px;
-    margin-right: 330px;
-    margin-top:32px;
-    margin-bottom:0px;
-    
-    color:#FFFFFF;
-
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 36px;
+     width: 620px;
+     height: 72px;
+     margin-left: 330px;
+     margin-right: 330px;
+     margin-top:32px;
+     margin-bottom:0px;
+     color:#FFFFFF;
+     font-family: Inter;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 30px;
+     line-height: 36px;
     /* or 120% */
-    
-    text-align: center;
- 
-
+     text-align: center;
 }
-
-@media screen and (max-width:1280px)
-{ 
-    .lead__subtitle {
-        margin-left: 330px;
-    margin-right: 330px; 
-    }
-
-
-
-}
-@media screen and (max-width:1024px)
-{ 
-    .lead__subtitle {
-    margin-left: 202px;
-    margin-right: 202px;
-    
+ @media screen and (max-width:1280px) {
+     .lead__subtitle {
+         margin-left: 330px;
+         margin-right: 330px;
     }
 }
-
-@media screen and (max-width:768px)
-{ 
-
-    .lead__subtitle {
-        margin-left: 74px;
-        margin-right: 74px;
-        
+ @media screen and (max-width:1024px) {
+     .lead__subtitle {
+         margin-left: 202px;
+         margin-right: 202px;
     }
 }
-
-@media screen and (max-width:320px)
-{ 
-
-    .lead__subtitle {
-
-        margin-left: 16px;
-        margin-right: 16px;
-        margin-top:16px;
-        width: 288px;
-        height: 40px;
-        font-size: 16px;
-line-height: 20px;
+ @media screen and (max-width:768px) {
+     .lead__subtitle {
+         margin-left: 74px;
+         margin-right: 74px;
+    }
+}
+ @media screen and (max-width:320px) {
+     .lead__subtitle {
+         margin-left: 16px;
+         margin-right: 16px;
+         margin-top:16px;
+         width: 288px;
+         height: 40px;
+         font-size: 16px;
+         line-height: 20px;
     }
 }

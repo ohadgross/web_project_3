@@ -1,59 +1,45 @@
 .cover__title{
-    width: 656px;
-    height: 76px;  
-
-    font-family: Inter;
-font-style: normal;
-font-weight: 900;
-font-size: 72px;
-line-height: 76px;
-margin-bottom:0px;
-padding-bottom:0px;
-padding-top:283px;
-margin-top:0px;
-margin-left:264px;
-margin-right:264px;
-
-color:white;
-z-index:100;
-text-align: center;
+     width: 656px;
+     height: 76px;
+     font-family: Inter;
+     font-style: normal;
+     font-weight: 900;
+     font-size: 72px;
+     line-height: 76px;
+     margin-bottom:0px;
+     padding-bottom:0px;
+     margin-top:0px;
+     margin-left:264px;
+     margin-right:264px;
+     color:white;
+     text-align: center;
 }
-
- 
-
-      
 /*1280*/
-
-@media screen and (max-width:1024px)
-{ 
-    .cover__title{
-        margin-left:184px;
-        margin-right:184px;
-        padding-top:233px;
-        }
-}
-
-@media screen and (max-width:768px)
-{ 
-    .cover__title{
-        margin-left:56px;
-        margin-right:56px;
-        padding-top:153px;
+ @media screen and (max-width:1024px) {
+     .cover__title{
+         margin-left:184px;
+         margin-right:184px;
+         padding-top:233px;
     }
-
 }
-
-@media screen and (max-width:320px)
-{ 
-    .cover__title{
-        margin-left:16px;
-        margin-right:16px;
-        font-family: Inter;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 32px;
-        line-height: 35px;
-        padding-top:51px;
-        width: 288px;
-height: 35px;
+ @media screen and (max-width:768px) {
+     .cover__title{
+         margin-left:56px;
+         margin-right:56px;
+         padding-top:153px;
+    }
+}
+ @media screen and (max-width:320px) {
+     .cover__title{
+         margin-left:16px;
+         margin-right:16px;
+         font-family: Inter;
+         font-style: normal;
+         font-weight: 900;
+         font-size: 32px;
+         line-height: 35px;
+         padding-top:51px;
+         width: 288px;
+         height: 35px;
+    }
 }
