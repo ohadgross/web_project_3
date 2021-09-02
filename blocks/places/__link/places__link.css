@@ -1,4 +1,4 @@
-.place__link{
+.places__link{
      grid-area:place__link;
      font-family: Inter;
      font-style: normal;
@@ -9,6 +9,6 @@
      text-decoration-line: underline;
      color: #FFFFFF;
 }
- .place__link:hover {
+ .places__link:hover {
      opacity: 0.8;
 }
