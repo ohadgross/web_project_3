@@ -1,6 +1,6 @@
 .intro__text-second-line{
      width: 690px;
-     height: 208px;
+  /*   height: 208px;*/
      margin-left:148px;
      margin-right:442px;
      margin-top:32px;
@@ -22,7 +22,7 @@
          margin-left:24px;
          margin-right:24px;
          width: 720px;
-         height: 182px;
+ /*        height: 182px;*/
     }
 }
  @media screen and (max-width:320px) {
@@ -30,6 +30,6 @@
          margin-left:16px;
          margin-right:16px;
          width: 288px;
-         height: 468px;
+    /*     height: 468px;*/
     }
 }
