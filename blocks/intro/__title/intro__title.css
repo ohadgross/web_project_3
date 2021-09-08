@@ -1,5 +1,5 @@
 .intro__title{
-    max-width: 690px;
+    width: 690px;
  /*    height: 116px;*/
      margin-left:148px;
      margin-right:442px;
@@ -14,7 +14,7 @@
      .intro__title{
          margin-left:48px;
          margin-right:286px;
-        max-width: 690px;
+        width: 690px;
     /*     height: 116px;*/
     }
 }
@@ -22,7 +22,7 @@
      .intro__title{
          margin-left:24px;
          margin-top:88px;
-        max-width: 720px;
+        width: 720px;
   /*       height: 116px;*/
     }
 }
@@ -30,7 +30,7 @@
      .intro__title {
          margin-left:16px;
          margin-top:64px;
-        max-width: 288px;
+        width: 288px;
    /*      height: 105px;*/
          font-size: 32px;
          line-height: 35px;

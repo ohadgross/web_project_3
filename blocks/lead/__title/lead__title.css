@@ -4,7 +4,7 @@
      margin-right:auto;
      margin-top:58px;
      margin-bottom:0px;
-    max-width: 720px;
+    width: 720px;
   /*   height: 200px;*/
      color:#FFFFFF;
      font-family: Inter;
@@ -24,7 +24,7 @@
  @media screen and (max-width:1024px) {
      .lead__title {
          margin-top:50px;
-        max-width: 720px;
+        width: 720px;
          height: 200px;
          margin-left: 152px;
          margin-right:152px;
@@ -33,7 +33,7 @@
  @media screen and (max-width:768px) {
      .lead__title {
          margin-top:50px;
-        max-width: 720px;
+        width: 720px;
     /*     height: 200px;*/
          margin-left: 24px;
          margin-right:24px;
@@ -42,7 +42,7 @@
  @media screen and (max-width:320px) {
      .lead__title {
          margin-top:50px;
-        max-width: 288px;
+        width: 288px;
          height: 88px;
          font-size: 40px;
          line-height: 44px;
