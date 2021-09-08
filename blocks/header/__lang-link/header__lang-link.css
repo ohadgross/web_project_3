@@ -1,6 +1,6 @@
 .header__lang-link{
      color:#ffffff;
-     width: 27px;
+    max-width: 27px;
 
      text-decoration: none;
 }

@@ -1,7 +1,7 @@
 .cover__image{
      background-size: contain;
      background-repeat: no-repeat;
-     width: 1184px;
+    max-width: 1184px;
    height: 740px;
      margin-right:48px;
      margin-left:48px;
@@ -11,7 +11,7 @@
 /*1280*/
  @media screen and (max-width:1024px) {
      .cover__image{
-         width: 1024px;
+        max-width: 1024px;
  height: 640px;
          margin-right:0px;
          margin-left:0px;
@@ -19,7 +19,7 @@
 }
  @media screen and (max-width:768px) {
      .cover__image{
-         width: 768px;
+        max-width: 768px;
      height: 480px;
          margin-right:0px;
          margin-left:0px;
@@ -28,7 +28,7 @@
 }
  @media screen and (max-width:320px) {
      .cover__image{
-         width: 320px;
+        max-width: 320px;
       height: 200px;
          margin-right:0px;
          margin-left:0px;
