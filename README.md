@@ -24,4 +24,4 @@ The way you'll do this at work is by exporting images directly from Figma — we
 Good luck and have fun!  
 
 
-Github pages ask to register and pay so i didn't publish it on github pages becuse i don't want to pay them
+This is the link to the site https://ohadgross.github.io/web_project_3/
