@@ -1,5 +1,5 @@
 .intro__text-second-line{
-    max-width: 690px;
+    width: 690px;
   /*   height: 208px;*/
      margin-left:148px;
      margin-right:442px;
@@ -21,7 +21,7 @@
      .intro__text-second-line{
          margin-left:24px;
          margin-right:24px;
-        max-width: 720px;
+        width: 720px;
  /*        height: 182px;*/
     }
 }
@@ -29,7 +29,7 @@
      .intro__text-second-line{
          margin-left:16px;
          margin-right:16px;
-        max-width: 288px;
+        width: 288px;
     /*     height: 468px;*/
     }
 }

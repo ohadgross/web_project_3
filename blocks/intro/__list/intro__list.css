@@ -1,6 +1,6 @@
 .intro__list{
      list-style: none;
-    max-width: 690px;
+    width: 690px;
   /*   height: 72px;*/
      margin-left:148px;
      margin-right:442px;
@@ -23,7 +23,7 @@
      .intro__list{
          margin-left:24px;
          margin-right:24px;
-        max-width: 720px;
+        width: 720px;
      /*    height: 72px;*/
     }
 }
@@ -31,7 +31,7 @@
      .intro__list{
          margin-left:16px;
          margin-right:16px;
-        max-width: 288px;
+        width: 288px;
        /*  height: 72px;*/
     }
 }
