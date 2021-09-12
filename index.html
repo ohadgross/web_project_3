@@ -7,16 +7,16 @@
         <title>Project 3</title>
     </head>
 
-    <body>
-        <div class="page">
+    <body class="page">
+        <div class="page__content">
             <header class="header">
-                <div class="header__container">
+                
                     <img class="logo logo_place_header" src="./images/logo_place_header.png" alt="logo header" />
                     <ul class="header__link-container">
                         <li class="header__link"><a href="#" class="header__lang-link">En</a></li>
                         <li class="header__link"><a href="#" class="header__lang-link">Es</a></li>
                     </ul>
-                </div>
+            
             </header>
 
             <main class="content">
@@ -30,43 +30,47 @@
 
                 <section class="intro">
                     <h2 class="intro__title">Know the country you live in a little better</h2>
-                    <p class="intro__text-first-line">That's exactly what we have arranged for you via this travel story</p>
-                    <p class="intro__text-second-line">
+                    <p class="intro__subtitle">That's exactly what we have arranged for you via this travel story</p>
+                    <p class="intro__paragraph">
                         Need more action and adventure in your life instead of the same old routine? From Portland, Maine to Portland, Oregon we're going to take you on an exciting journey through some unknown regions of your country. Leave
                         the car at home and travel by bike starting in New England where it all began. You will pass through 12 beautiful states, covering a total of 3,600 miles, and accomplish 3 monumental missions. Partying and taking a
                         selfie with a famous rock star, donating $1 to a billionaire to help eradicate polio in Africa, and even stopping by famous author Stephen King's house to say hi and asking him to sign your favorite book.
                     </p>
 
                     <ul class="intro__list">
-                        <li>Distance (miles) 3,644</li>
-                        <li>Travel time (days) 22</li>
-                        <li>Highest point (feet) 9,613</li>
-                        <li>Lowest point (feet) -3</li>
+                        <li><span class="intro__text-bold">Distance (miles)</span> 3,644</li>
+                        <li><span class="intro__text-bold">Travel time (days)</span> 22</li>
+                        <li><span class="intro__text-bold">Highest point (feet)</span> 9,613</li>
+                        <li><span class="intro__text-bold">Lowest point (feet)</span> -3</li>
                     </ul>
                 </section>
 
-                <div class="photo-grid">
-                    <img class="photo-grid__item" src="./images/photo-grid__item1.png" alt="Photo Grid" />
-                    <img class="photo-grid__item" src="./images/photo-grid__item2.png" alt="Photo Grid" />
-                    <img class="photo-grid__item" src="./images/photo-grid__item3.png" alt="Photo Grid" />
-                    <img class="photo-grid__item" src="./images/photo-grid__item4.png" alt="Photo Grid" />
+                <section class="photo-grid">
+                    <ul class="photo-grid__list">
 
-                    <img class="photo-grid__item" src="./images/photo-grid__item5.png" alt="Photo Grid" />
-                    <img class="photo-grid__item" src="./images/photo-grid__item6.png" alt="Photo Grid" />
-                    <img class="photo-grid__item" src="./images/photo-grid__item7.png" alt="Photo Grid" />
-                    <img class="photo-grid__item" src="./images/photo-grid__item8.png" alt="Photo Grid" />
+                  
+                   <li class="photo-grid__list-item"> <img class="photo-grid__item" src="./images/photo-grid__item1.png" alt="Photo Grid" /></li>
+                   <li class="photo-grid__list-item">  <img class="photo-grid__item" src="./images/photo-grid__item2.png" alt="Photo Grid" /></li>
+                    <li class="photo-grid__list-item">  <img class="photo-grid__item" src="./images/photo-grid__item3.png" alt="Photo Grid" /></li>
+                        <li class="photo-grid__list-item">  <img class="photo-grid__item" src="./images/photo-grid__item4.png" alt="Photo Grid" /></li>
 
-                    <img class="photo-grid__item" src="./images/photo-grid__item9.png" alt="Photo Grid" />
-                    <img class="photo-grid__item" src="./images/photo-grid__item10.png" alt="Photo Grid" />
-                    <img class="photo-grid__item" src="./images/photo-grid__item11.png" alt="Photo Grid" />
-                    <img class="photo-grid__item" src="./images/photo-grid__item12.png" alt="Photo Grid" />
-                </div>
+                            <li class="photo-grid__list-item">   <img class="photo-grid__item" src="./images/photo-grid__item5.png" alt="Photo Grid" /></li>
+                                <li class="photo-grid__list-item">  <img class="photo-grid__item" src="./images/photo-grid__item6.png" alt="Photo Grid" /></li>
+                                    <li class="photo-grid__list-item">  <img class="photo-grid__item" src="./images/photo-grid__item7.png" alt="Photo Grid" /></li>
+                                        <li class="photo-grid__list-item" >  <img class="photo-grid__item" src="./images/photo-grid__item8.png" alt="Photo Grid" /></li>
+
+                                            <li class="photo-grid__list-item">   <img class="photo-grid__item" src="./images/photo-grid__item9.png" alt="Photo Grid" /></li>
+                                                <li class="photo-grid__list-item">  <img class="photo-grid__item" src="./images/photo-grid__item10.png" alt="Photo Grid" /></li>
+                                                    <li class="photo-grid__list-item">  <img class="photo-grid__item" src="./images/photo-grid__item11.png" alt="Photo Grid" /></li>
+                                                        <li class="photo-grid__list-item">  <img class="photo-grid__item" src="./images/photo-grid__item12.png" alt="Photo Grid" /></li>
+         </ul>
+                </section>
 
                
                 <section class="places">
                 <article class="place places__article">
                     <h2 class="place__title">Maine</h2>
-                    <div>
+                    <div class="place__adress">
                         <p class="place__url-heading">URL</p>
                         <a class="place__link" href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1" target="_blank">global.llbean.com</a>
                     </div>
@@ -87,7 +91,7 @@
 
                 <article class="place places__article">
                     <h2 class="place__title">New Hampshire</h2>
-                    <div>
+                    <div class="place__adress">
                         <p class="place__url-heading">URL</p>
                         <a class="place__link" href="https://www.timberland.com/timberlandpro.html" target="_blank">timberland.com</a>
                     </div>
@@ -109,7 +113,7 @@
 
                 <article class="place places__article">
                     <h2 class="place__title">New York</h2>
-                    <div>
+                    <div class="place__adress">
                         <p class="place__url-heading">URL</p>
                         <a class="place__link" href="https://www.ge.com/about-us" target="_blank">ge.com</a>
                     </div>
@@ -129,7 +133,7 @@
 
                 <article class="place places__article">
                     <h2 class="place__title">Erie, PA</h2>
-                    <div>
+                    <div class="place__adress">
                         <p class="place__url-heading">URL</p>
                         <a class="place__link" href="https://www.fws.gov/refuge/erie" target="_blank">fws.gov</a>
                     </div>
@@ -150,7 +154,7 @@
 
                 <article class="place places__article">
                     <h2 class="place__title">Ohio</h2>
-                    <div>
+                    <div class="place__adress">
                         <p class="place__url-heading">URL</p>
                         <a class="place__link" href="https://www.cedarpoint.com" target="_blank">cedarpoint.com</a>
                     </div>
@@ -171,22 +175,27 @@
                 <section class="cover">
                     <a href="https://www.nps.gov/nr/travel/route66/maps66.html" class="cover__image-link" target="_blank">
                   <img src="./images/cover__background.png" alt="Cover image" class="cover__image" >
-                        </a>
-                         <div class="cover__content">                       
+                      
+                                               
                         <h2 class="cover__title">Historic Route 66</h2>
                         <p class="cover__subtitle">The Main Street of America from Santa Monica, Cal. to Chicago, Ill.</p>                     
-                         </div>                   
+                      
+                        </a>                
                 </section>
 
             </main>
 
             <footer class="footer">
-                <div class="footer__grid">
-                 <div>   <a href="https://yandex.com/maps" target="_blank" class="footer__link">Maps</a> </div>
-                 <div>  <a href="https://yandex.com/weather/moscow" target="_blank" class="footer__link">Weather</a>     </div>         
-                    <div>  <a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Calendar</a></div>
-                   <span class="footer__copyright">&#169; 2021. Ohad Gross</span>
-                </div>
+                <nav class="navigaion">
+                 <ul class="navigation__list">
+                     <li>
+                        <a href="https://yandex.com/maps" target="_blank" class="navigation__link">Maps</a> </li>
+                        <li> <a href="https://yandex.com/weather/moscow" target="_blank" class="navigation__link">Weather</a>    </li>       
+                            <li>  <a href="https://calendar.yandex.ru" target="_blank" class="navigation__link">Calendar</a> </li>
+                     </ul>
+                  
+                 </nav>
+                 <p class="footer__copyright">&#169; 2021. Ohad Gross</p>
             </footer>
         </div>
     </body>
