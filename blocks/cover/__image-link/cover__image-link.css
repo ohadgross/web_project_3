@@ -1,8 +1,38 @@
 .cover__image-link{
-     grid-column: 1;
-     grid-row: 1;
-     z-index:0;
-   /*  grid-column: 1;
-     grid-row: 1;
-     z-index:1;*/
+  display:flex;
+  position: relative;
+margin:0;
+padding:0;
+box-sizing: border-box;
+  text-decoration: none;
+   flex-direction: column;
+     z-index:1;
+ 
+     background-image: url("../../../images/cover__background.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+     min-height: 740px;
+    
+    
+     align-items: center;
+     justify-content: center;
+    
+}
+
+.cover__image-link::before{
+  
+  content: "";
+  position:absolute;
+  top:0;
+  left:0;
+  opacity: 0.3;
+  transition: 0.5s ease-in;
+  z-index:-1;
+  background: #2A2C2F ;
+  height: 100%;
+  width:100%;
+ 
+}
+.cover__image-link:hover::before{
+  opacity: 0.8;
 }
