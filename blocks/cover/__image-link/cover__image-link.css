@@ -36,3 +36,31 @@ box-sizing: border-box;
 .cover__image-link:hover::before{
   opacity: 0.8;
 }
+
+@media screen and (max-width:1024px) {
+  .cover__image-link{
+    min-width: 1024px;
+min-height: 640px;
+      margin-right:0px;
+      margin-left:0px;
+ }
+}
+@media screen and (max-width:768px) {
+  .cover__image-link{
+     min-width: 768px;
+ min-height: 480px;
+      margin-right:0px;
+      margin-left:0px;
+      margin-top:89px;
+ }
+}
+@media screen and (max-width:320px) {
+  .cover__image-link{
+     min-width: 320px;
+   min-height: 200px;
+      margin-right:0px;
+      margin-left:0px;
+      margin-top:64px;
+
+ }
+}
