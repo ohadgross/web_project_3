@@ -1,0 +1,10 @@
+.navigation__link{
+    color:white;
+    text-decoration: none;
+    grid-area:link;
+  
+}
+.navigation__link:hover{
+    color:red;
+    opacity: 0.8;
+}
