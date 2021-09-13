@@ -20,8 +20,13 @@
 
  @import url("../blocks/intro/__text-bold/intro__text-bold.css");
  @import url("../blocks/intro/__list/intro__list.css");
+
+
  @import url("../blocks/photo-grid/photo-grid.css");
  @import url("../blocks/photo-grid/__item/photo-grid__item.css");
+ @import url("../blocks/photo-grid/__list/photo-grid__list.css");
+ @import url("../blocks/photo-grid/__list-item/photo-grid__list-item.css");
+ 
  @import url("../blocks/place/place.css");
  @import url("../blocks/places/__article/places__article.css");
  @import url("../blocks/place/__title/place_title.css");
