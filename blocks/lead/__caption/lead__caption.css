@@ -1,7 +1,8 @@
 .lead__caption{
+    
     width: 182px;
   /*   height: 14px;*/
-     margin-left: 148px;
+    
      margin-top:8px;
      margin-bottom:0px;
      font-family: Inter;
@@ -13,9 +14,11 @@
     */
      text-transform: uppercase;
      color: #FFFFFF;
-     align-items: none;
-     justify-content: none;
+  color:red;
+     justify-content:left;
+   align-items: flex-start;
 }
+/*
  @media screen and (max-width:1280px) {
 }
  @media screen and (max-width:1024px) {
@@ -33,3 +36,4 @@
          margin-left: 16px;
     }
 }
+*/
