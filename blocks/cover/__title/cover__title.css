@@ -15,7 +15,7 @@
      text-align: center;
 }
 /*1280*/
-@media screen and (min-width:1024px) and (max-width:1279px){
+@media screen and (min-width:1024px) and (max-width:1279px) {
      .cover__title{
          margin-left:184px;
          margin-right:184px;
