@@ -3,5 +3,50 @@
      position:relative;
      color:#FFFFFF;
      background-color: teal;
+     display:flex;
+     flex-direction: column;
+ margin-left:148px;
+ margin-right:442px;
+
+
 }
  
+
+/*1280*/
+@media screen and (min-width:1024px) and (max-width:1279px){
+     .intro {
+       
+          margin-left:48px;
+          margin-right:286px;
+         
+        
+        }
+}
+@media screen and (min-width:768px) and (max-width:1023px) {
+     .intro {
+       
+          margin-left:24px;
+          margin-right:24px;
+         
+        
+        }
+}
+@media screen and (min-width:320px) and (max-width:767px) {
+     .intro {
+       
+          margin-left:16px;
+          margin-right:16px;
+         
+        
+        }
+}
+@media screen and (max-width:320px)
+{
+     .intro {
+       
+     margin-left:16px;
+     margin-right:16px;
+    
+   
+   }
+}

@@ -15,10 +15,12 @@
      text-transform: uppercase;
      color: #FFFFFF;
   color:red;
-     justify-content:left;
-   align-items: flex-start;
+  
+  margin-left: 148px;
+   
+   
 }
-/*
+
  @media screen and (max-width:1280px) {
 }
  @media screen and (max-width:1024px) {
@@ -31,9 +33,14 @@
          margin-left: 24px;
     }
 }
- @media screen and (max-width:320px) {
+@media screen and (max-width:767px) {
      .lead__caption{
          margin-left: 16px;
     }
 }
-*/
+@media screen and (max-width:320px)
+{
+    .lead__caption{
+        margin-left: 16px;
+   }
+}
