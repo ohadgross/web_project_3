@@ -1,11 +1,8 @@
 .lead {
 display:flex;
      position:relative;
-     background-color: blue;
+    
     
      flex-direction: column;
-     /* justify-content: center;
-     align-items: center;
- */
- 
+
 }
