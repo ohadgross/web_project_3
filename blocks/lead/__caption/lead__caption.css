@@ -13,6 +13,8 @@
     */
      text-transform: uppercase;
      color: #FFFFFF;
+     align-items: none;
+     justify-content: none;
 }
  @media screen and (max-width:1280px) {
 }
