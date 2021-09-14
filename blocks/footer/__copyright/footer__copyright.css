@@ -1,11 +1,13 @@
 .footer__copyright{
-     padding-left:808px;
+    /* padding-left:808px;*/
      color:white;
      font-family: Inter;
      font-style: normal;
      font-weight: normal;
      font-size: 14px;
      line-height: 16px;
+     grid-area:copyright;
+     margin:0;
     /* identical to box height, or 114% */
 }
 /*1280*/

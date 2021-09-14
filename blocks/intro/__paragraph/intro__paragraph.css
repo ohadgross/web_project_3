@@ -1,4 +1,4 @@
-.intro__text-second-line{
+.intro__paragraph{
     width: 690px;
   /*   height: 208px;*/
      margin-left:148px;
@@ -12,13 +12,13 @@
 }
 /*1280*/
  @media screen and (max-width:1024px) {
-     .intro__text-second-line{
+     .intro__paragraph{
          margin-left:48px;
          margin-right:286px;
     }
 }
  @media screen and (max-width:768px) {
-     .intro__text-second-line{
+     .intro__paragraph{
          margin-left:24px;
          margin-right:24px;
         width: 720px;
@@ -26,7 +26,7 @@
     }
 }
  @media screen and (max-width:320px) {
-     .intro__text-second-line{
+     .intro__paragraph{
          margin-left:16px;
          margin-right:16px;
         width: 288px;

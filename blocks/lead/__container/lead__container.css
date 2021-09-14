@@ -1,0 +1,7 @@
+.lead__container{
+    display:flex;
+    object-fit: cover;
+    justify-content: center;
+align-content: center;
+background-color: red;
+}

@@ -1,0 +1,15 @@
+.navigation{
+    display:grid;
+      
+    grid-gap: 0px 18px;
+    grid-template-areas: "link link link copyright";
+    
+}
+
+@media screen and (max-width:320px) {
+    .navigation{
+        grid-gap: 18px 18px;
+    
+        grid-template-areas: "link" "link" "link" "copyright";
+   }
+}
