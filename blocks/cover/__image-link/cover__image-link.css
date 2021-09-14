@@ -43,6 +43,7 @@ box-sizing: border-box;
 min-height: 640px;
       margin-right:0px;
       margin-left:0px;
+      margin-top:92px;
  }
 }
 @media screen and (max-width:768px) {
