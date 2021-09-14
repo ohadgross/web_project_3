@@ -1,6 +1,7 @@
 .cover__image{
      background-size: contain;
      background-repeat: no-repeat;
+     object-fit: cover;
     width: 1184px;
    height: 740px;
      margin-right:48px;

@@ -1,9 +1,9 @@
 .lead__image{
-    object-fit: cover;
+      object-fit: cover;
+
     width: 984px;
      height: 615px;
-   /*  margin-left: 148px;
-     margin-right: 148px;*/
+  
      margin-top:64px;
 } 
 /*1280 and above*/
@@ -12,8 +12,7 @@
      .lead__image{
         width: 928px;
          height: 580px;
-    /*     margin-left:48px;
-         margin-right:48px;*/
+    
          margin-top:56px;
     }
     
@@ -22,8 +21,7 @@
      .lead__image{
         width: 768px;
          height: 480px;
-       /*  margin-right:0px;
-         margin-left:0px;*/
+      
          margin-top:56px;
     }
 
@@ -32,8 +30,7 @@
      .lead__image{
         width: 320px;
          height: 200px;
-     /*    margin-left:0px;
-         margin-right:0px;*/
+     
          margin-top:40px;
     }
 }
