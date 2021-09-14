@@ -1,7 +1,7 @@
 .header {
  /*    margin:0 auto;*/
      padding:0;
-  
+  background-color: pink;
      position: relative;
      display:flex;
      justify-content: space-between;
