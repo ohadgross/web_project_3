@@ -1,0 +1,4 @@
+.links__title {
+    grid-area: title;
+    font-size: 12px;
+}

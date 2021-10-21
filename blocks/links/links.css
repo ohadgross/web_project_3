@@ -1,0 +1,7 @@
+.links {
+    display:grid;
+    position: relative;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 92px 40px;
+    grid-template-areas: "title url" ;
+}
